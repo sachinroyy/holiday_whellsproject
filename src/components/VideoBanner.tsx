@@ -22,14 +22,24 @@
 //   );
 // }
 // import React from 'react';
-import video from '../assets/building.webp';
+// import video from '../assets/building.webp';
+import React from 'react';
+import newvideo from '../assets/newviedoneww.mp4'; // Import your video file
 
 const VideoBanner: React.FC = () => {
   return (
-    <div 
-      className="relative w-[85vw] h-[80vh] mx-auto overflow-hidden bg-cover bg-center rounded-[80px]" 
-      style={{ backgroundImage: `url(${video})` }}
-    >
+    <div className="relative w-[85vw] h-[80vh] mx-auto overflow-hidden rounded-[80px]">
+      {/* Video Background */}
+      <video 
+        className="absolute inset-0 w-full h-full object-cover" 
+        src={newvideo} 
+        autoPlay 
+        loop 
+        muted 
+        playsInline
+      />
+
+      {/* Overlay and Content */}
       <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
         <div className="text-center text-white">
           <h1 className="text-5xl md:text-7xl font-bold mb-4">Explore The World</h1>
