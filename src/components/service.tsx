@@ -18,8 +18,8 @@ const countries = [
     flag: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg",
   },
   {
-    name: "South Africa",
-    flag: "https://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_South_Africa.svg",
+    name: "USA",
+    flag: "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
   },
   {
     name: "Europe",
