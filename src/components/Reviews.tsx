@@ -41,21 +41,21 @@ const reviews = [
   },
   {
     id: 1,
-    name: "Sarah Johnson",
+    name: "saurabh",
     text: "Amazing service! Our family trip was perfectly planned down to the last detail.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=100"
   },
   {
     id: 2,
-    name: "Michael Chen",
+    name: "Ravi gupta",
     text: "Professional team that made our honeymoon truly unforgettable.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=100"
   },
   {
     id: 3,
-    name: "Emily Davis",
+    name: "komel",
     text: "The attention to detail and personalized service was outstanding!",
     rating: 3,
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=100"
