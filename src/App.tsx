@@ -5,6 +5,7 @@ import BookingForm from './components/BookingForm';
 import Reviews from './components/Reviews';
 import Footer from '../src/components/footer';
 import Services from "../src/components/service";
+import Country from './components/country';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <VideoBanner />
       <About />
       <Services/>
+      <Country/>
       <BookingForm />
       <Reviews />
       <Footer/>

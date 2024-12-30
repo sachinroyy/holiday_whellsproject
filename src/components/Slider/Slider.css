@@ -1,0 +1,20 @@
+/* Container to hold the scrolling text */
+.text-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    white-space: nowrap;
+    animation: scrollText 25s linear infinite; /* Animation applied to the scrolling text */
+  }
+  
+  /* Keyframes to animate the horizontal scrolling */
+  @keyframes scrollText {
+    0% {
+      transform: translateX(100%); /* Start from right outside the container */
+    }
+    100% {
+      transform: translateX(-100%); /* Move to the left outside the container */
+    }
+  }
+  
