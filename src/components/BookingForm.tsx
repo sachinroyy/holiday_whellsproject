@@ -18,7 +18,7 @@ const BookingForm: React.FC = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    const scriptURL = "https://script.google.com/macros/s/AKfycbw501YeUW4ZRveAylZVozWq7-MV6RcpyCPkJUN96ZonznmQJ2Y7eWNP68pyMogDx5XR/exec"; // Replace with your Web App URL
+    const scriptURL = "https://script.google.com/macros/s/AKfycbw_FzLBEwzzAu62CwVp0WCWL8lNLi08YkViwTFq_LCJB8pG0QPT0FSgcfWHiM8HKG0Y/exec"; // Replace with your Web App URL
 
     try {
       const response = await fetch(scriptURL, {
@@ -149,3 +149,7 @@ const BookingForm: React.FC = () => {
 };
 
 export default BookingForm; // Ensure this is the default export
+
+
+
+/// google form api https://script.google.com/macros/s/AKfycbw_FzLBEwzzAu62CwVp0WCWL8lNLi08YkViwTFq_LCJB8pG0QPT0FSgcfWHiM8HKG0Y/exec
