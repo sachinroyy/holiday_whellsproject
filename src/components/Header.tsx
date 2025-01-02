@@ -181,7 +181,7 @@ export default function Header() {
     text-black
   "
 >
-  Check your visa assessments in 2 min (Free): NO VISA NO FEES: CALL NOW: <strong className='text-white underline'>9910479071</strong>
+  Check your visa assessments in 2 min (Free)  NO VISA NO FEES- CALL NOW - <strong className='text-black underline'>9910479071</strong>
 </span>
 
        {/* <span className='uppercase flex justify-center bg-red-600 rounded-[50px] text-2xl font-bold' >check your visa assesment in 2 min(free)  : NO VISA NO FEES: CALL now : <strong className='text-white'> 9910479071</strong></span> */}

@@ -6,7 +6,7 @@ import './Slider.css'; // Import the CSS file
 const TextSlider: React.FC = () => {
   // Example data to loop through
   const countries = [
-    'India No. 1 Tourist Visa Provider:      ',
+    'India No. 1 Tourist Visa Provider --  ',
     'United States of America',
     'United Kingdom',
     'Canada',
